@@ -34,6 +34,9 @@ class Kernel extends HttpKernel
         'api' => [
             'throttle:60,1',
         ],
+        'locate' => [
+            \App\Http\Middleware\LacaleMiddleware::class
+            ]
     ];
 
     /**
@@ -49,5 +52,6 @@ class Kernel extends HttpKernel
         'can' => \Illuminate\Foundation\Http\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'isAdmin' => \App\Http\Middleware\AdminMiddleware::class,
     ];
 }

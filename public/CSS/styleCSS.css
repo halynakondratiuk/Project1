@@ -1,5 +1,6 @@
-body {
-    background-color: chocolate;
+#impont{
+    background-color: #d6e9c6;
+    background-attachment: scroll;
 }
 #link{
     padding-top: 5px;
@@ -7,4 +8,30 @@ body {
 }
 #form{
     text-align: center;
+}
+.text1{
+    width: 60%;
+    height: 70%;
+}
+
+#task{
+    background-image: url("https://www.planwallpaper.com/static/images/violet-vector-leaves-circles-backgrounds-for-powerpoint_PdfkI4q.jpg");
+}
+.menu{
+    display: inline-block;
+    padding: 6px 20px;
+    border: 1px solid ;
+    border-radius: 10%;
+    background: #c0a16b;
+}
+
+.textk{
+    padding-top: 5px;
+    text-align: center;
+}
+.list > li{
+    list-style: none;
+}
+.floatl{
+    float:left;
 }
